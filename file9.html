@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .container{
+            background-color: beige;
+            border: solid black 5px;
+            display: flex;
+            flex-direction: row;
+            /* flex-wrap: wrap; */
+            height: 500px;
+            justify-content: center;
+            align-items: center;
+            align-content: start;
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            border: solid black 1px;
+            margin: 2px;
+            padding: 2px;
+        }
+        #box1{
+            background-color:aqua;
+            order: 500;
+            
+
+        }
+        #box2{
+            background-color: rgb(130, 21, 238);
+            
+        }
+        #box3{
+            background-color: green;
+            
+        }
+        #box4{
+            background-color: brown;
+            order: -1;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">A</div>
+        <div class="box" id="box2">B</div>
+        <div class="box" id="box3">C</div>
+        <div class="box" id="box4">D</div>
+
+    </div>
+    
+</body>
+</html>

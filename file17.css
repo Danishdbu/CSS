@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(105, 76, 76);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+   
+    border: 2px solid white;
+    gap: 0.4rem;
+    padding: 4rem;
+    justify-items: center;
+    align-items: start;
+}
+.item{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(98, 238, 85);
+    border: solid 5px rgba(255, 255, 255, 0.699);
+    /* horizental axise */
+    /* justify-self: stretch; */
+    /* align-self: stretch; */
+
+    place-self: end;
+
+}
